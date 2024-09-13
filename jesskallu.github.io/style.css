@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif, Arial;
+    color: white;
+    background-color: lightsalmon;
+}
+
+#logo{
+    font-family: Helvetica;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+body > header{
+    background-color: coral;
+}
+
+main > h1{
+    text-align: center;
+}
+
+#nav-ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-ul > li{
+    padding: 8px;
+    margin: 8px;
+}
+
+.navbutton{
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+body > main article{
+    text-align: center;
+    margin: auto;
+}
+
+body > footer{
+    background-color: coral;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > li{
+    margin: 8px;
+}
+
+#footer-ul > li > a{
+    color: white;
+    text-decoration: none;
+}
